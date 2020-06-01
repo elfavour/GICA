@@ -685,9 +685,17 @@ section {
   color: #999
 }
 
+@media (max-width: 800px){
+.continue{
+  padding-right: 15px;
+  padding-left: 15px;
+}  
+}
+
 .about .continue p:last-child {
   margin-bottom: 0;
   color: #999;
+  padding-right: 10px;
 }
 
 .about .continue ul {
